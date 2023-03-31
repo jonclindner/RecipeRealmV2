@@ -71,7 +71,7 @@ const main = async () => {
     }
   ]
 
-  await Recipe.insertMany(recipe)
+  await Recipe.insertMany(recipes)
   console.log('Created some new recipes!')
 }
 const run = async () => {
