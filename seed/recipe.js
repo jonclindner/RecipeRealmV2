@@ -40,8 +40,8 @@ const main = async () => {
     }
   ]
 
-  await Coaster.insertMany(coaster)
-  console.log('Created some Roller Coasters!')
+  await Recipe.insertMany(recipe)
+  console.log('Created some new recipes!')
 }
 const run = async () => {
   await main()
