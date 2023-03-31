@@ -1,0 +1,15 @@
+{
+  "name": "reciperealmv2",
+  "version": "1.0.0",
+  "description": "### **March 23, 2023**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.0.3"
+  }
+}
