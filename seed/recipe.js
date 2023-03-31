@@ -25,15 +25,15 @@ const main = async () => {
       ingredient9: 'Lemon Juice',
       ingredient10: 'Chicken Breasts',
       ingredient11: 'White Wine',
-      ingredient12: '',
-      ingredient13: '',
-      ingredient14: '',
-      ingredient15: '',
-      ingredient16: '',
-      ingredient17: '',
-      ingredient18: '',
-      ingredient19: '',
-      ingredient20: '',
+      ingredient12: 'Test',
+      ingredient13: 'Test',
+      ingredient14: 'Test',
+      ingredient15: 'Test',
+      ingredient16: 'Test',
+      ingredient17: 'Test',
+      ingredient18: 'Test',
+      ingredient19: 'Test',
+      ingredient20: 'Test',
       image:
         'https://preppykitchen.com/wp-content/uploads/2017/03/Chicken-Piccata-Feature.jpg',
       video: 'https://www.youtube.com/watch?v=ArQ567m3oVo&t=23s'
@@ -61,17 +61,17 @@ const main = async () => {
       ingredient14: 'Kaffir Lime Leaves',
       ingredient15: 'Chicken Thigh Fillets',
       ingredient16: 'Fish Sauce',
-      ingredient17: '',
-      ingredient18: '',
-      ingredient19: '',
-      ingredient20: '',
+      ingredient17: 'Test',
+      ingredient18: 'Test',
+      ingredient19: 'Test',
+      ingredient20: 'Test',
       image:
         'https://satyamskitchen.com/wp-content/uploads/2021/05/website-3.jpg',
       video: 'youtube.com/watch?v=dYZHzK7YfYI'
     }
   ]
 
-  await Recipe.insertMany(recipes)
+  await Recipe.insertMany(recipe)
   console.log('Created some new recipes!')
 }
 const run = async () => {
