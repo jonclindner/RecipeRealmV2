@@ -1,11 +1,11 @@
 const db = require('../db')
-const Coaster = require('../models/recipe')
+const Recipe = require('../models/recipe')
 
 // Connect to the database
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () => {
-  const coaster = [
+  const recipe = [
     {
       name: 'Chicken Piccata',
       description:
