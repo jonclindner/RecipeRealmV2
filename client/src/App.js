@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import UpdateRecipe from './components/UpdateRecipe'
+import AddRecipe from './components/AddRecipe'
+import { Route, Routes } from 'react-router-dom'
+import ViewRecipe from './pages/ViewRecipe'
+import SignIn from './pages/SignIn'
+import Nav from './components/Nav'
+import About from './pages/About'
+import { useState } from 'react'
+import Home from './pages/Home'
 
 function App() {
+  const [user, setUser] = useState('')
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <Nav />
       </header>
-    </div>
-  );
+      <main className="">
+        <Routes>
+          {!user === '' ? (
+            <Route path="/" element={<Home />} />
+          ) : (
+            <Route path="/" element={<SignIn setUser={setUser} />} />
+          )}
+          <Route path="/viewRecipe/:id" element={<ViewRecipe />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/add" element={<AddRecipe />} />
+          <Route path="/editRecipe/:id" element={<UpdateRecipe />} />
+        </Routes>
+      </main>
+    </>
+  )
 }
 
-export default App;
+export default App
