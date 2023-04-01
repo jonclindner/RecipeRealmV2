@@ -1,4 +1,4 @@
-import { GiCook } from 'react-icons/tb'
+import { GiCook } from 'react-icons/gi'
 import { useNavigate } from 'react-router-dom'
 
 const Nav = () => {

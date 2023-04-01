@@ -1,4 +1,4 @@
-import { GiCook } from 'react-icons/tb'
+import { GiCook } from 'react-icons/gi'
 import jwt_decode from 'jwt-decode'
 import { useEffect } from 'react'
 import Home from './Home'
@@ -54,7 +54,7 @@ const SignIn = ({ setUser }) => {
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
               Sign in to browse&nbsp;
               <span className="text-indigo-600 hover:text-indigo-700">
-                Coaster
+                RecipeRealm
               </span>
             </h2>
           </div>

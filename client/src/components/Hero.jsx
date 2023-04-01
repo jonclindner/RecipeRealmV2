@@ -1,4 +1,4 @@
-import { GiCook } from 'react-icons/tb'
+import { GiCook } from 'react-icons/gi'
 
 const Hero = ({ executeScroll }) => {
   return (
