@@ -27,15 +27,13 @@ const Home = () => {
         <div ref={myRef} className=" m-8 rounded-2xl">
           {recipes.map((recipe) => (
             <Card
+              //need to update to match recipe schema
               key={recipe._id}
               id={recipe._id}
-              height={recipe.height}
               image={recipe.image}
-              length={recipe.length}
-              location={recipe.location}
               name={recipe.name}
               reviews={recipe.reviews}
-              time={recipe.time}
+              totalTime={recipe.totalTime}
               video={recipe.video}
               userId={recipe.userId}
               getRecipes={getRecipes}
