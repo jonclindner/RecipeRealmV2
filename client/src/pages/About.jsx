@@ -1,12 +1,12 @@
 // import Footer from '../components/Footer'
-
+import { Link } from 'react-router-dom'
 const About = () => {
   const stats = [
-    { id: 1, name: 'Roller coasters in the World', value: '2,400+' },
+    { id: 1, name: '', value: '2,400+' },
     { id: 2, name: 'Different variations of roller coasters', value: '37' },
     {
       id: 3,
-      name: 'First cookbook published on clay tablets',
+      name: 'Oldest Known Written Recipe',
       value: '1700 BCE'
     },
     { id: 4, name: 'Average cost to build a Roller Coaster', value: '$8M' }
@@ -23,21 +23,31 @@ const About = () => {
         <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
           <div className="px-6 pt-16 pb-24 sm:pt-20 sm:pb-32 lg:col-start-2 lg:px-8 lg:pt-32">
             <div className="mx-auto max-w-2xl lg:mr-0 lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-8 text-indigo-600">
-                Our track record
+              <h2 className="text-base font-semibold leading-8 text-blue-600">
+                About:
               </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Trusted by thousands of people&nbsp;worldwide
+              <p className="mt-2 text-3xl  tracking-tight text-gray-900 sm:text-2xl">
+                Our mission is to bring people from all cultures and walks of
+                life together by fostering cultural celebration and diversity
+                through sharing of food. We strive to provide a platform where
+                users can discover and share recipes from their own cultures and
+                learn about others, creating a sense of community and
+                appreciation for the world's diverse culinary traditions.
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Our mission is to bring people from all walks of life together
-                by fostering cultural celebration and diversity through sharing
-                food ideas. We strive to provide a platform where users can
-                discover and share recipes from their own cultures and learn
-                about others, creating a sense of community and appreciation for
-                the world's diverse culinary traditions.
+                RecipeRealm was created by Jon Lindner as the final project for
+                General Assembly's immersive software engineering course. Click
+                on my photo below to view my profile on LinkedIn.
               </p>
-              <dl className="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
+              <div className="flex justify-center mt-10">
+                <Link to="https://www.linkedin.com/in/jon-lindner-807847183/">
+                  <img
+                    src="https://media.licdn.com/dms/image/D4E03AQGU_g4hzJWZ2w/profile-displayphoto-shrink_200_200/0/1676421652630?e=1683763200&v=beta&t=Q_wGyL4gxSI1eglBACTTLS_tIVPgOux27yMpj-OhDus"
+                    className="w-30 h-30 rounded-full transition duration-300 ease-in-out hover:scale-110 "
+                  />
+                </Link>
+              </div>
+              {/* <dl className="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
                 {stats.map((stat) => (
                   <div
                     key={stat.id}
@@ -51,7 +61,7 @@ const About = () => {
                     </dd>
                   </div>
                 ))}
-              </dl>
+              </dl> */}
             </div>
           </div>
         </div>

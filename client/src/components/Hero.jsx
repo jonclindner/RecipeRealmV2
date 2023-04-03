@@ -6,13 +6,13 @@ const Hero = ({ executeScroll }) => {
       <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="px-6 pt-10 pb-24 sm:pb-32 lg:col-span-7 lg:px-0 lg:pt-48 lg:pb-56 xl:col-span-6">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <GiCook size={80} className="h-11 text-indigo-600" />
+            <GiCook size={80} className="h-11 text-blue-600" />
             <div className="hidden sm:mt-32 sm:flex lg:mt-16">
-              <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-red-900/100">
                 Find the best recipes{' '}
                 <button
                   onClick={executeScroll}
-                  className="whitespace-nowrap font-semibold text-indigo-600"
+                  className="whitespace-nowrap font-semibold text-blue-600"
                 >
                   <span className="absolute inset-0" aria-hidden="true" />
                   <span aria-hidden="true">&rarr;</span>
@@ -28,7 +28,7 @@ const Hero = ({ executeScroll }) => {
             <div className="mt-10 flex items-center gap-x-6">
               <a
                 href="/add"
-                className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 Add a Recipe
               </a>

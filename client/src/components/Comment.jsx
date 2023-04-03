@@ -77,7 +77,7 @@ const Comment = ({
               type="submit"
               className="inline-flex justify-center rounded-md border border-transparent bg-slate-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-grape-700 focus:outline-none focus:ring-2 focus:ring-grape-500 focus:ring-offset-2"
             >
-              Post
+              Post Edited Comment
             </button>
           </div>
         </form>
