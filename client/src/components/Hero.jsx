@@ -23,12 +23,12 @@ const Hero = ({ executeScroll }) => {
               Welcome to RecipeRealm
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Click below to add a recipe that you've made.
+              Click below to add your favorite recipe
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
                 href="/add"
-                className="rounded-md bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                className="rounded-full bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 Add a Recipe
               </a>
@@ -37,7 +37,7 @@ const Hero = ({ executeScroll }) => {
         </div>
         <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
           <img
-            className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+            className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full rounded-3xl"
             src="https://images.livspace-cdn.com/w:1600/h:630/plain/https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/2/2018/10/12111535/cover-3.png"
             alt=""
           />
