@@ -5,6 +5,7 @@ const Nav = () => {
   const navigate = useNavigate()
 
   const navigation = [
+    { name: 'RecipeRealm', href: '/' },
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' }
   ]
@@ -22,8 +23,8 @@ const Nav = () => {
             <div className="flex items-center">
               <a href="/">
                 <span className="sr-only">RecipeRealm</span>
-                <SiCodechef className="mx-auto h-12 w-auto text-slate-100" />
-                {/* <img className="h-10 w-auto" src="https://i.imgur.com/YrHjqIw.png" alt="" /> */}
+                <SiCodechef className="mx-auto h-12 w-auto text-slate-300" />
+                RecipeRealm
               </a>
               <div className="ml-10 hidden space-x-8 lg:block">
                 {navigation.map((link) => (

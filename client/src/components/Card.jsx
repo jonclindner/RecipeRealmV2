@@ -1,6 +1,7 @@
-import { AiOutlineEdit } from 'react-icons/ai'
+import { FaUserEdit } from 'react-icons/fa'
+
 import { useNavigate } from 'react-router-dom'
-import { TfiClose } from 'react-icons/tfi'
+import { BsTrash3 } from 'react-icons/bs'
 import axios from 'axios'
 
 const Card = ({
@@ -67,13 +68,13 @@ const Card = ({
           <div className="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:py-24 xl:px-16">
             {userId === sessionStorage.getItem('user') && (
               <div className="flex gap-4">
-                <TfiClose
+                <BsTrash3
                   size={20}
                   onClick={handleDelete}
                   className="text-white cursor-pointer"
                 />
 
-                <AiOutlineEdit
+                <FaUserEdit
                   size={22}
                   onClick={handleEdit}
                   className="text-white cursor-pointer"

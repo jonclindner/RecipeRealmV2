@@ -51,15 +51,15 @@ const SignIn = ({ setUser }) => {
         <div className="w-full max-w-md space-y-8">
           <div>
             <GiMeal className="mx-auto h-12 w-auto text-blue-800" />
-            <h2 className="mt-6 text-center text-3xl font-normal tracking-tight text-gray-900">
-              Sign in to browse&nbsp;
+            <h2 className="mt-6 mb-15 text-center text-3xl font-normal tracking-tight text-gray-900">
+              Please sign in to view&nbsp;
               <span className="font-extralight text-blue-800 hover:text-blue-700">
                 RecipeRealm
               </span>
             </h2>
           </div>
           <form
-            className="mt-8 space-y-6 flex items-center justify-center"
+            className="mt-15 space-y-6 flex items-center justify-center "
             action="#"
             method="POST"
           >
