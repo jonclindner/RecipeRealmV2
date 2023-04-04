@@ -109,13 +109,13 @@ const RecipeDetails = () => {
                     <li>{recipeDetails.ingredient19}</li>
                     <li>{recipeDetails.ingredient20}</li>
                   </ul>
-                  <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+                  <h2 className=" mt-20 text-3xl font-bold tracking-tight sm:text-4xl">
                     Instructions:
                   </h2>
                   <p className="mx-auto mt-6 max-w-3xl text-left text-xl leading-normal text-gray-500">
                     {recipeDetails.instructions}
                   </p>
-                  <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+                  <h2 className=" mt-20 text-3xl font-bold tracking-tight sm:text-4xl">
                     Comments
                   </h2>
 

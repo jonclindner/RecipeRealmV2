@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import Footer from '../components/Footer'
 import Card from '../components/Card'
-import Hero from '../components/Hero'
+import Main from '../components/Main'
 import axios from 'axios'
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
   return (
     recipes && (
       <>
-        <Hero executeScroll={executeScroll} />
+        <Main executeScroll={executeScroll} />
         <div ref={myRef} className=" m-8 rounded-2xl">
           {recipes.map((recipe) => (
             <Card

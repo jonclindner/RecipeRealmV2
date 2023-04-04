@@ -1,8 +1,8 @@
 import { GiCook } from 'react-icons/gi'
 
-const Hero = ({ executeScroll }) => {
+const Hero = () => {
   return (
-    <div className="relative bg-white lg:mt-24 mt-44">
+    <div className="relative bg-white lg:mt-56 mt-44">
       <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="px-6 pt-10 pb-24 sm:pb-32 lg:col-span-7 lg:px-0 lg:pt-48 lg:pb-56 xl:col-span-6">
           <div className="mx-auto max-w-2xl lg:mx-0">
@@ -11,10 +11,10 @@ const Hero = ({ executeScroll }) => {
               Welcome to RecipeRealm
             </h1>
             <p className="mt-6 text-lg leading-8 text-blue-600">
-              Click below to view our recipes!
+              Please scroll to view our recipes!
             </p>
 
-            <div className="hidden sm:mt-32 sm:flex lg:mt-16">
+            {/* <div className="hidden sm:mt-32 sm:flex lg:mt-16">
               <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-red-900/100">
                 Find the best recipes{' '}
                 <button
@@ -25,7 +25,7 @@ const Hero = ({ executeScroll }) => {
                   <span aria-hidden="true">&rarr;</span>
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
