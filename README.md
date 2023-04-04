@@ -10,7 +10,7 @@
 
 ### **_Description_**
 
-#### RecipeRealm is a scratch-built, interactive, full-stack P.E.R.N application that allows users to create a unique account to access a database of recipes. Users can post public reviews for any recipe, add recipes to to their private 'favorites' list, or create new recipes.
+#### RecipeRealm is a scratch-built, interactive, full-stack M.E.R.N application that allows users to create a unique account to add to and access a database of recipes. Users can post public reviews for any recipe.
 
 ####
 
@@ -22,6 +22,8 @@
 - Express
 - React
 - Node
+- Tailwind
+- OAuth 2.0
 
 ---
 
@@ -34,3 +36,9 @@
 ### **_Screenshots_**
 
 ## **Credits**
+
+seeded recipe https://preppykitchen.com/chicken-piccata/
+https://satyamskitchen.com/recipe/thai-panang-chicken-curry/
+https://basicswithbabish.co/basicsepisodes/pizza-dough
+
+grocery store image / Georgijevic/iStock via Getty Images
