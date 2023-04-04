@@ -104,29 +104,29 @@ const Card = ({
                   <div className="mt-1 text-gray-400">{totalTime}</div>
                 </figcaption>
                 <figcaption className="mt-8 text-base mr-4 w-32">
-                  <div className="font-semibold text-white">Video</div>
+                  <div className="font-semibold text-white"></div>
                   <div className="mt-1 text-gray-400">
                     <a
-                      className="text-blue-300"
+                      className="rounded-full bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                       href={video}
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Click to watch
+                      Watch Video
                     </a>
                   </div>
                 </figcaption>
                 <figcaption className="mt-8 text-base mr-4 w-32">
-                  <div className="font-semibold text-white">
-                    Comments ({reviews.length})
-                  </div>
                   <div
                     onClick={handleClick}
-                    className="mt-1 text-gray-400 cursor-pointer text-blue-300"
+                    className="rounded-full bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                   >
                     View Recipe
                   </div>
                 </figcaption>
+                <div className="font-semibold text-white">
+                  Comments ({reviews.length})
+                </div>
                 <figcaption className="mt-8 text-base mr-4 w-32">
                   {/* <BsHeart className="text-white cursor-pointer" size={30} /> */}
                 </figcaption>
