@@ -11,7 +11,7 @@ const Hero = ({ executeScroll }) => {
               Welcome to RecipeRealm
             </h1>
             <p className="mt-6 text-lg leading-8 text-blue-600">
-              Click below to view our recipes
+              Click below to view our recipes!
             </p>
 
             <div className="hidden sm:mt-32 sm:flex lg:mt-16">
