@@ -163,166 +163,168 @@ const UpdateRecipe = () => {
                     </div>
                     Ingredients - One per box
                   </label>
-                  <input
-                    type="text"
-                    name="ingredient1"
-                    id="ingredient1"
-                    className="border-solid border-2 border-blue-900 outline-2 mt-1 block w-full rounded-md border-black-300 shadow-lg focus:border-black-900 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient1}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient2"
-                    id="ingredient2"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm  "
-                    onChange={handleChange}
-                    value={formState.ingredient2}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient3"
-                    id="ingredient3"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient3}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient4"
-                    id="ingredient4"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient4}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient5"
-                    id="ingredient5"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient5}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient6"
-                    id="ingredient6"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient6}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient7"
-                    id="ingredient7"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient7}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient8"
-                    id="ingredient8"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient8}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient9"
-                    id="ingredient9"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient9}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient10"
-                    id="ingredient10"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient10}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient11"
-                    id="ingredient11"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient11}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient12"
-                    id="ingredient12"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient12}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient13"
-                    id="ingredient13"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient13}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient14"
-                    id="ingredient14"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient14}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient15"
-                    id="ingredient15"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient15}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient16"
-                    id="ingredient16"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient16}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient17"
-                    id="ingredient17"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient17}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient18"
-                    id="ingredient18"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient18}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient19"
-                    id="ingredient19"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient19}
-                  />
-                  <input
-                    type="text"
-                    name="ingredient20"
-                    id="ingredient20"
-                    className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    onChange={handleChange}
-                    value={formState.ingredient20}
-                  />
+                  <div className="col-span-3 sm:col-span-3 lg:col-span-2">
+                    <input
+                      type="text"
+                      name="ingredient1"
+                      id="ingredient1"
+                      className="border-solid border-2 border-blue-900 outline-2 mt-1 block w-full rounded-md border-black-300 shadow-lg focus:border-black-900 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient1}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient2"
+                      id="ingredient2"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm  "
+                      onChange={handleChange}
+                      value={formState.ingredient2}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient3"
+                      id="ingredient3"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient3}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient4"
+                      id="ingredient4"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient4}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient5"
+                      id="ingredient5"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient5}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient6"
+                      id="ingredient6"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient6}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient7"
+                      id="ingredient7"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient7}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient8"
+                      id="ingredient8"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient8}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient9"
+                      id="ingredient9"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient9}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient10"
+                      id="ingredient10"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient10}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient11"
+                      id="ingredient11"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient11}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient12"
+                      id="ingredient12"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient12}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient13"
+                      id="ingredient13"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient13}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient14"
+                      id="ingredient14"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient14}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient15"
+                      id="ingredient15"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient15}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient16"
+                      id="ingredient16"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient16}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient17"
+                      id="ingredient17"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient17}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient18"
+                      id="ingredient18"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient18}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient19"
+                      id="ingredient19"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient19}
+                    />
+                    <input
+                      type="text"
+                      name="ingredient20"
+                      id="ingredient20"
+                      className="border-solid border-2 border-blue-900 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      onChange={handleChange}
+                      value={formState.ingredient20}
+                    />
+                  </div>
                 </div>
               </div>
             </div>

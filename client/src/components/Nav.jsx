@@ -40,17 +40,25 @@ const Nav = () => {
             <div className="ml-10 space-x-4">
               {sessionStorage.getItem('user') && (
                 <div className="flex col-auto">
-                  <button
-                    onClick={handleClick}
-                    className="inline-block rounded-md border border-transparent bg-slate-400 py-2 px-4 text-base font-medium text-white hover:bg-opacity-75"
-                  >
-                    Logout
-                  </button>
-                  <img
-                    className="w-10 h-10 ml-2 rounded-full object-cover"
-                    src={sessionStorage.getItem('picture')}
-                    alt="name"
-                  />
+                  <div className="mt-1 flex items-center gap-x-6">
+                    <a
+                      href="/add"
+                      className="rounded-full bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                    >
+                      Add a Recipe
+                    </a>
+                    <button
+                      onClick={handleClick}
+                      className="rounded-full bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                    >
+                      Logout
+                    </button>
+                    <img
+                      className="w-10 h-10 ml-2 rounded-full object-cover"
+                      src={sessionStorage.getItem('picture')}
+                      alt="name"
+                    />
+                  </div>
                 </div>
               )}
               {!sessionStorage.getItem('user') && (

@@ -7,31 +7,24 @@ const Hero = ({ executeScroll }) => {
         <div className="px-6 pt-10 pb-24 sm:pb-32 lg:col-span-7 lg:px-0 lg:pt-48 lg:pb-56 xl:col-span-6">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <GiCook size={80} className="h-11 text-blue-600" />
+            <h1 className="mt-24 text-4xl font-thin tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
+              Welcome to RecipeRealm
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-blue-600">
+              Click below to view our recipes
+            </p>
+
             <div className="hidden sm:mt-32 sm:flex lg:mt-16">
               <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-red-900/100">
                 Find the best recipes{' '}
                 <button
                   onClick={executeScroll}
-                  className="whitespace-nowrap font-semibold text-blue-600"
+                  className="rounded-full bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
                   <span className="absolute inset-0" aria-hidden="true" />
                   <span aria-hidden="true">&rarr;</span>
                 </button>
               </div>
-            </div>
-            <h1 className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
-              Welcome to RecipeRealm
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Click below to add your favorite recipe
-            </p>
-            <div className="mt-10 flex items-center gap-x-6">
-              <a
-                href="/add"
-                className="rounded-full bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-              >
-                Add a Recipe
-              </a>
             </div>
           </div>
         </div>
