@@ -37,7 +37,7 @@ const About = () => {
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 RecipeRealm was created by Jon Lindner as the final project for
                 General Assembly's immersive software engineering course. Click
-                on my photo below to view my profile on LinkedIn.
+                on my photo below to view my profile on LinkedIn!
               </p>
               <div className="flex justify-center mt-10">
                 <Link to="https://www.linkedin.com/in/jon-lindner-807847183/">
