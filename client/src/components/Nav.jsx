@@ -17,14 +17,16 @@ const Nav = () => {
 
   return (
     <>
-      <header className="bg-black fixed top-0 z-50 w-full ">
-        <nav className="mx-auto max-w-7xl px-6 lg:px-8" aria-label="Top">
+      <header className="bg-blue-900 fixed top-0 z-50 w-full ">
+        <nav
+          className="mx-auto bg-blue-900 max-w-7xl px-6 lg:px-8"
+          aria-label="Top"
+        >
           <div className="flex w-full items-center justify-between border-b border-blue-500 py-6 lg:border-none">
             <div className="flex items-center">
               <a href="/">
-                <span className="sr-only">RecipeRealm</span>
+                <span className="sr-only text-slate-100">RecipeRealm</span>
                 <SiCodechef className="mx-auto h-12 w-auto text-slate-300" />
-                RecipeRealm
               </a>
               <div className="ml-10 hidden space-x-8 lg:block">
                 {navigation.map((link) => (
@@ -63,11 +65,10 @@ const Nav = () => {
                 </div>
               )}
               {!sessionStorage.getItem('user') && (
-                <a
-                  href="/"
-                  className="inline-block rounded-md border border-transparent bg-white py-2 px-4 text-base font-medium text-blue-600 hover:bg-blue-50"
-                >
-                  <p>Sign In</p>
+                <a href="/">
+                  <p className="rounded-full bg-blue-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+                    Login
+                  </p>
                 </a>
               )}
             </div>
