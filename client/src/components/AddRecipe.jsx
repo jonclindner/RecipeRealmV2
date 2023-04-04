@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import axios from 'axios'
+import { TbChefHat } from 'react-icons/tb'
 
 const AddRecipe = () => {
   let navigate = useNavigate()
@@ -52,9 +53,14 @@ const AddRecipe = () => {
 
   return (
     <div className="m-8 mt-24">
-      <h1 className="text-black w-full text-center p-8 text-2xl font-bold">
-        Add a Recipe
-      </h1>
+      <div>
+        <h2 className="mt-52 mb-15 text-center text-3xl font-normal tracking-tight text-blue-900">
+          Add a recipe to&nbsp;
+          <span className="font-extralight text-red-500 hover:text-red-700">
+            RecipeRealm
+          </span>
+        </h2>
+      </div>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="bg-white px-4 py-5 shadow sm:rounded-lg sm:p-6">
           <div className="md:grid md:grid-cols-3 md:gap-6">
