@@ -1,17 +1,6 @@
 // import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 const About = () => {
-  const stats = [
-    { id: 1, name: '', value: '2,400+' },
-    { id: 2, name: 'Different variations of roller coasters', value: '37' },
-    {
-      id: 3,
-      name: 'Oldest Known Written Recipe',
-      value: '1700 BCE'
-    },
-    { id: 4, name: 'Average cost to build a Roller Coaster', value: '$8M' }
-  ]
-
   return (
     <>
       <div className="relative bg-white mt-24">

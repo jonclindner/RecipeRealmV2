@@ -1,6 +1,6 @@
 import { GiCook } from 'react-icons/gi'
 
-const Hero = () => {
+const Main = () => {
   return (
     <div className="relative bg-white lg:mt-56 mt-44">
       <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
@@ -40,4 +40,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Main
