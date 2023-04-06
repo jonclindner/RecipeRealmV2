@@ -35,11 +35,11 @@
 
 ### **_Screenshots_**
 
-## ![screen gif](images/Screenshot%202023-04-06%20at%2011.38.09%20AM.png)
+## ![Screenshot](images/Screenshot1.png)
 
-## ![screen gif](images/Screenshot%202023-04-06%20at%2011.38.22%20AM.png)
+## ![Screenshot](images/Screenshot2.png)
 
-## ![screen gif](images/Screenshot%202023-04-06%20at%2011.38.45%20AM.png)
+## ![Screenshot](images/Screenshot3.png)
 
 ## **Credits**
 
