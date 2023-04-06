@@ -29,7 +29,7 @@
 
 ### **_Getting Started_**
 
-#### Upon loading the home page, either register yourself as a new user or use the guest login function to gain authorization to use all functions of the page. After logging into your account, browse through the 'Highest Rated' page, select your category of choice from the dropdown menu, or use the search bar to find your desired recipe. Once you have navigated to the 'recipe details' page, you can add this recipe to your list of favorites, view other users' reviews, or post your own review of the recipe. To view your list of favorite recipes and reviews that you have posted, click on your username in the navigation bar. From this user details page, you can edit or delete any reviews or recipes that you have posted previously.
+#### Upon loading the home page, login with your Google account to gain authorization to use all functions of the page. After logging into your account, browse through the home page. Once you have navigated to the 'recipe details' page, you can post your own review of the recipe. If you would like to add a recipe to the database, there is an option in the navigation bar.
 
 ---
 
