@@ -35,11 +35,11 @@
 
 ### **_Screenshots_**
 
-## ![Screenshot](images/Screenshot1.png)
+## ![Screenshot](Images/Screenshot1.png)
 
-## ![Screenshot](images/Screenshot2.png)
+## ![Screenshot](Images/Screenshot2.png)
 
-## ![Screenshot](images/Screenshot3.png)
+## ![Screenshot](Images/Screenshot3.png)
 
 ## **Credits**
 
